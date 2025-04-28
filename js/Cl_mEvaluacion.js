@@ -1,5 +1,5 @@
 export default class Cl_mEvaluacion{
-    constructor (codigo, actividad, valor){
+    constructor({ codigo, actividad, valor }){
         this.codigo = codigo;
         this.actividad = actividad;
         this.valor = valor;
